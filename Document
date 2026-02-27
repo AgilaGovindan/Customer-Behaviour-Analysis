@@ -1,0 +1,186 @@
+📊 Dataset Summary
+
+Rows: 3,900
+
+Columns: 18
+
+Key Features:
+
+Customer Demographics
+
+Age
+
+Gender
+
+Location
+
+Subscription Status
+
+Purchase Details
+
+Item Purchased
+
+Category
+
+Purchase Amount
+
+Season
+
+Size
+
+Color
+
+Shopping Behavior
+
+Discount Applied
+
+Promo Code Used
+
+Previous Purchases
+
+Frequency of Purchases
+
+Review Rating
+
+Shipping Type
+
+Missing Values
+
+37 missing values in review_rating
+
+🐍 Exploratory Data Analysis (EDA) – Python
+1️⃣ Data Preparation
+
+Imported dataset using pandas
+
+Used:
+
+df.info() → structure check
+
+df.describe() → summary statistics
+
+2️⃣ Data Cleaning
+
+Handled missing values in review_rating
+
+Imputed using median rating per product category
+
+Renamed columns to snake_case
+
+Dropped redundant column: promo_code_used
+
+3️⃣ Feature Engineering
+
+Created:
+
+age_group (binned age ranges)
+
+purchase_frequency_days
+
+Verified data consistency
+
+4️⃣ Database Integration
+
+Connected Python to PostgreSQL
+
+Loaded cleaned dataset into SQL database for business analysis
+
+🗄️ Data Analysis Using SQL (PostgreSQL)
+
+Performed structured business analysis to answer key questions:
+
+Revenue by Gender
+
+High-Spending Discount Users
+
+Top 5 Products by Rating
+
+Shipping Type Comparison
+
+Subscribers vs Non-Subscribers Revenue
+
+Discount-Dependent Products
+
+Customer Segmentation
+
+New
+
+Returning
+
+Loyal
+
+Top 3 Products per Category
+
+Repeat Buyers & Subscription Behavior
+
+Revenue by Age Group
+
+📈 Interactive Dashboard – Power BI
+
+Built an interactive dashboard to visualize:
+
+Total Revenue
+
+Average Rating
+
+Purchase Trends
+
+Subscription Analysis
+
+Age Group Revenue Contribution
+
+Shipping Type Comparison
+
+Customer Segmentation
+
+Dashboard features:
+
+Slicers (Category, Gender, Age Group)
+
+KPI Cards
+
+Bar & Column Charts
+
+Trend Analysis
+
+Revenue Distribution
+
+💡 Business Recommendations
+
+Based on insights:
+
+✅ Promote subscription benefits to increase recurring revenue
+
+✅ Launch loyalty programs for repeat buyers
+
+✅ Optimize discount strategies to protect margins
+
+✅ Highlight top-rated and best-selling products
+
+✅ Target high-revenue age groups in marketing campaigns
+
+🛠️ Tech Stack
+
+Python (Pandas, NumPy)
+
+MySQL
+
+Power BI
+
+GitHub
+
+📂 Project Workflow
+
+Import Data → Python
+
+EDA & Cleaning → Python
+
+Load Data → MYSQL
+
+Business Queries → SQL
+
+Dashboard → Power BI
+
+Presentation → Gamma AI
+
+Version Control → GitHub
